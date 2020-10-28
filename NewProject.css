@@ -1,0 +1,156 @@
+
+.navbar-brand
+{
+color:#fff;
+margin-right: 97px;
+}
+.navbar-brand:hover
+{
+color:#fff;
+}
+.nav-link{
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.nav-link:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color:rgb(185, 29, 81);
+}
+.navbar{
+    padding:0px;
+}
+.container{
+    margin:0px;
+
+}
+.btn-login {
+    color: #fff;
+    background-color: #e91e63;
+    border-color: #fff; 
+    padding: 8px;
+}
+.btn-login:hover {
+    color: #e91e63;
+    background-color: #fff;
+    border-color: #fff; 
+    padding: 8px;
+}
+
+
+.col-6{
+    width:100%;
+}
+.headings{
+    color: #fff;
+    padding: 10px;
+    border-radius: 64px;
+    background-color: #e91e63;
+    text-align: center;
+}
+#left-About{
+    padding: 23px;
+}
+.hdAbt{
+   color:#000000a6;
+}
+.pAbt{
+    text-align: justify;
+}
+.aboutUs{
+    padding:22px;
+    background-color: #fff;
+    height:auto;
+}
+@media (max-width: 976px)
+{.col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}}
+.products{
+    padding:22px;
+    background-color: #fff;
+    height:auto;
+}
+.contactUs{
+    padding:22px;
+    background-color: #fff;
+    height:350px;
+}
+.img-thumbnail {
+    padding: 2.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: 341px;
+}
+a {
+    border-radius: 33px;
+    border: 2px solid #e91e1e61;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    background-color: #e91e63f5;
+    padding: 1px;
+}
+.h3, h3 {
+    font-size: 1.4rem;
+}
+.producth1{
+    font-size: 1.5rem;
+}
+#carousel-icone{
+    color:#e91e63;
+}
+
+.item-ratings span{
+    Margin-bottom: 3px;
+    Display: inline-block;
+    Text-align: center;
+    Font-size: 15px;
+    Cursor: pointer;
+    Transition: all 0.5s;
+    Color: #FF9529;
+    }
+    
+    .item-ratings span:nth-child(5){
+    Color:  #FFDF00;
+    }
+    
+    .item-ratings span:nth-child(6){
+    Color: #4C2881;
+    Margin-right: 2px;
+    Font-size: 10.6px;
+    }
+    
+    /*.item-ratings span i.fa-star{
+    Border: 1px solid black;
+    }*/
+    .contact-form{
+            margin-top: 75px;
+            padding: 22px;
+            box-shadow: #00000052 4px 4px 4px 4px;
+        }
+        button, input, optgroup, select, textarea {
+           
+            width: 100%;
+            margin: 13px;
+            box-shadow: #0000006b 4px 5px 6px -2px;
+            padding: 15px;
+            font-family: inherit;
+            font-size: 18px;
+            line-height: inherit;
+        }
+.myForm{
+    padding:2px;
+
+}
+.h1, h1 {
+    text-align:center;
+    text-shadow: #000 4px 4px 21px;
+    font-size: 2.0rem;
+    color: #e91e63;
+}
