@@ -17,15 +17,19 @@ color:#fff;
     padding: 1px;
 }
 .nav-link:hover{
-	 border-radius: 33px;
+	 border-radius: 10px;
      border: 2px solid #e91e1e61;
      padding: 1px;
      color: #fff;
      text-decoration: none;
      background-color:rgb(185, 29, 81);
 }
-.navbar-toggler{
-width:100%;
+.fa-bars{
+    font-size:20px;
+	width:20px;
+}{
+    font-size:20px;
+	width:20px;
 }
 @media (min-width: 576px) {
 .navbar-expand-sm .navbar-nav .nav-link {
@@ -83,6 +87,14 @@ width:100%;
     flex: 0 0 50%;
     max-width: 50%;
 }}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #E91E63;
+    border: 1px solid #ca0e4e;
+    border-radius: .25rem;
+}
 
 .products{
     padding:22px;
@@ -95,6 +107,7 @@ width:100%;
     height:350px;
 }
 .img-thumbnail {
+	margin-top: 44px;
     padding: 2.25rem;
     background-color: #fff;
     border: 1px solid #dee2e6;
@@ -206,19 +219,22 @@ box-shadow:#0000002e 4px 4px 4px 4px;
     padding: 99px 42px 0px 42px;
 }
 #submit {
-    width: 270px;
+	border-radius: 14px;
+    margin-top: 32px;
+    width: 258px;
     background-color: #E91E63;
     color: #fff;
     border: #E91E63 solid;
     padding: 4px;
+    margin-left: 0px;
 }
-  .contact-form{
-            margin-top: 75px;
-            padding: 22px;
-            box-shadow: #00000052 4px 4px 4px 4px;
-        }
-        button, input, optgroup, select, textarea {
-           
+  .contact-form {
+    margin-bottom:75px;
+    margin-top: 75px;
+    padding: 22px;
+    box-shadow: #00000052 4px 4px 4px 4px;
+}
+        .myForm .submit  {        
             width: 100%;
             margin: 13px;
             box-shadow: #0000006b 4px 5px 6px -2px;
@@ -227,14 +243,62 @@ box-shadow:#0000002e 4px 4px 4px 4px;
             font-size: 18px;
             line-height: inherit;
         }
+           .myForm #name,#lastName,#contactNum,#emailId {
+           padding: 7px;
+           width: 100%;
+          }
+            .label{
+                color: #000000a8;
+                font-size: 19px;
+}
 .myForm{
+	margin-top:46px;
     padding:2px;
 
 }
 .h1-cus {
     text-align:center;
-    text-shadow: #000 4px 4px 21px;
     font-size: 2.0rem;
-    color: #e91e63;
+    color: #00000069;
 }  
-    
+#row-con1{
+    margin-top:74px;
+	margin-left:0px;
+	margin-right:0px;
+	box-shadow:#00000052 2px 8px 11px;
+}
+#row-cont2{
+    margin-top:22px;
+	margin-left:0px;
+	margin-right:0px;
+	box-shadow:#00000052 2px 8px 11px;
+}
+
+.contactUs #row-cont2 i  {
+    font-size: 20px;
+    color: #E91E63;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #e91e634a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+  .contactUs #row-cont2 i:hover{
+    font-size: 20px;
+    color: #fff;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #E91E63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+
