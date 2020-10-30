@@ -220,7 +220,7 @@
 		  <div class="col-lg-6"> 
     <div class="contact-form">
       <h1 class="h1-cus"> Drop Your Details here!</h1>
-     <form class="myForm" id="myForm" method="POST" name="myForm" enctype="multipart/form-data">
+     <form class="myForm" id="myForm" action="index_process.php" method="post" name="myForm" enctype="multipart/form-data">
        <div class="row">
          <div class="col-lg-6">
 			 <label class="label">Name *</label>
