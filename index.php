@@ -190,28 +190,29 @@
   <section class="contactUs" id="contactUs">
     <h2 class="headings"> Contact Us! </h2>
     <div class="row"> 
- 		<div class="col-lg-6" class="contact-form">
-			<div class="row" id="row-con1">
-			  <div class="col-sm-12">
-		       <img src="https://www.hlb.com.my/content/dam/hlb/hk/images/contact-us/contact-us-banner.jpeg" class="img-fluid"/>
-        	  </div>
-			</div>
+ 		<div class="col-lg-6" class="contact-form">			
 			 <div class="row" id="row-cont2">
-			  <div class="col-lg-4">
+			  <div class="col-lg-12">
+				  <div class="address">
 				  <i class='fas fa-map-marker-alt' style="font-size:24px"></i>				  
 				  <br/>
-				  <h6>Location </h6>
-				  <p></p>
-		      </div>
-				 <div class="col-lg-4">
-					<i class='fas fa-briefcase' style='font-size:24px'></i><br/>
-					  <h6>Email Id </h6>
-					 <p></p>
+				  <h6 class="h6">Location:</h6>
+				  <p class="p">Jalandhar, Jalandhar, Punjab 144001</p>
 				 </div>
-				 <div class="col-lg-4">
+		      </div>
+				 <div class="col-lg-12">
+				  <div class="email"> 
+					<i class='fas fa-briefcase' style='font-size:24px'></i><br/>
+					  <h6 class="h6">Email Id:</h6>
+					 <p class="p">techinjectindia@gmail.com</p>
+				 </div>
+				 </div>
+					 <div class="col-lg-12">
+				  <div class="contact">
 					<i class='fas fa-phone' style='font-size:24px'></i><br/>
-					   <h6>Contact Number </h6>
-					 <p></p>
+					   <h6 class="h6">Contact Number:</h6>
+					 <p class="p">088 262 16 673</p>				 
+					</div>
 				 </div>			  
 			</div>
 		</div>
