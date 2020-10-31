@@ -105,7 +105,7 @@
             </div>
             <div class="carousel-item">
              <img src="img/product1(ii).jpg" class="figure-img d-block w-100"/>
-            </div>
+            </div> 
             <div class="carousel-item">
              <img src="img/product1(iii).jpg" class="figure-img d-block w-100"/>
             </div>
