@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-  <script src='main.js'></script>	
+ 
  </head>	
 <body>  
 <nav class="navbar navbar-expand-sm " style="background-color:#e91e63; border: 3px solid #e91e63;">
@@ -218,13 +218,13 @@
 		  <div class="col-lg-6"> 
     <div class="contact-form">
       <h1 class="h1-cus"> Drop Your Details here!</h1>
-     <form class="myForm" id="myForm" action="#" method="post" name="myForm" enctype="multipart/form-data">
+     <form class="myForm" id="myForm" action="index_process.php" method="post" name="myForm" enctype="multipart/form-data">
        <div class="row">
          <div class="col-lg-6">
 			 <label class="label">Name *</label>
 			 <input type="text" class="name" id="name" name="name" required/>
           </div>
-		    <div class="col-lg-6">
+		    <div class="col-lg-6"> 
 			 <label class="label">Last Name *</label>
 			 <input type="text" class="lastName" id="lastName" name="lastName" required/>
          </div>
@@ -232,16 +232,16 @@
       <div class="row">
          <div class="col-lg-6">
 			 <label class="label">Email Id *</label>
-			 <input type="email" class="emailId" id="emailId" name="emailId" required>
+			 <input type="email" class="emailId" id="emailId" name="emailId" required />
          </div>
 		    <div class="col-lg-6">
 			 <label class="label">Contact Number *</label>
-			 <input type="number" class="contactNum" id="contactNum" name="contactNum" required>			
+			 <input type="number" class="contactNum" id="contactNum" name="contactNum" required />			
          </div>
        </div>		  
 		 <div class="row">
         <div class="col-lg-12">
-          <input type="submit" class="submit" id="submit" name="submit" onclick="myFunction()" value="Submit here" >
+          <input type="submit" class="submit" id="submit" name="submit"  value="Submit here" >
         </div>
       </div> 
      </form>
