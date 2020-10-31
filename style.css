@@ -67,7 +67,7 @@ color:#fff;
     background-color: #e91e63;
     text-align: center;
 }
-#left-About{
+#left-About{ 
     padding: 23px;
 }
 .hdAbt{
@@ -268,7 +268,8 @@ box-shadow:#0000002e 4px 4px 4px 4px;
 	box-shadow:#00000052 2px 8px 11px;
 }
 #row-cont2{
-    margin-top:22px;
+    height: 378px;
+    margin-top: 72px;
 	margin-left:0px;
 	margin-right:0px;
 	box-shadow:#00000052 2px 8px 11px;
@@ -287,18 +288,17 @@ box-shadow:#0000002e 4px 4px 4px 4px;
     border-radius: 50px;
     transition: all 0.3s ease-in-out;
 }
-  .contactUs #row-cont2 i:hover{
-    font-size: 20px;
-    color: #fff;
-    float: left;
-    width: 44px;
-    height: 44px;
-    background: #E91E63;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    transition: all 0.3s ease-in-out;
+
+.contactUs #row-cont2 .email:hover i, .contactUs #row-cont2 .address:hover i, .contactUs #row-cont2 .contact:hover i {
+  background: #E91E63;
+  color: #fff;
+}
+.h6{
+    color: #000;
+    font-size: 22px;
 }
 
-
+.p{
+    font-size: 19px;
+    margin-left: 41px;
+}
