@@ -6,8 +6,8 @@ margin-right: 97px;
 }
 .navbar-brand:hover
 {
-color:#fff;
-}
+color:#fff; 
+} 
 .nav-link{
     border: 2px solid #e91e1e61;
     background-color: #000;
@@ -56,7 +56,6 @@ color:#fff;
     padding: 8px;
 }
 
-
 .col-6{
     width:100%;
 }
@@ -69,6 +68,9 @@ color:#fff;
 }
 #left-About{ 
     padding: 23px;
+}
+#right-About{
+padding:23px;
 }
 .hdAbt{
    color:#000000a6;
@@ -107,8 +109,8 @@ color:#fff;
     height:350px;
 }
 .img-thumbnail {
-	margin-top: 44px;
-    padding: 2.25rem;
+	margin-top: 14px;
+    padding: 3.25rem;
     background-color: #fff;
     border: 1px solid #dee2e6;
     border-radius: .25rem;
@@ -139,9 +141,7 @@ color:#fff;
     background-color: #673ab72e;
     margin-top: 135px;
 }
-.figure-img{
-box-shadow:#0000002e 4px 4px 4px 4px;
-}
+
 .item-ratings span{
     Margin-bottom: 3px;
     Display: inline-block;
@@ -229,10 +229,10 @@ box-shadow:#0000002e 4px 4px 4px 4px;
     margin-left: 0px;
 }
   .contact-form {
-    margin-bottom:75px;
-    margin-top: 75px;
-    padding: 22px;
-    box-shadow: #00000052 4px 4px 4px 4px;
+    margin-bottom: 75px;
+    margin-top: 73px;
+    padding: 23px;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
         .myForm .submit  {        
             width: 100%;
@@ -243,36 +243,69 @@ box-shadow:#0000002e 4px 4px 4px 4px;
             font-size: 18px;
             line-height: inherit;
         }
-           .myForm #name,#lastName,#contactNum,#emailId {
-           padding: 7px;
-           width: 100%;
+                
+.myForm #name,#lastName,#contactNum,#emailId {
+         
+    display: block;
+    width: 100%;
+    min-height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057d1;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
           }
             .label{
                 color: #000000a8;
                 font-size: 19px;
+				margin-top:4px;
+}
+                  .img-fluid{
+                     width:65%;
+                    }
+ .figure {
+    display: block;
+}
+ .figure-caption {
+    font-size: 16px;
+    color: #2d3338;
+}
+.mx-auto {
+    padding: 19px;
+    height: auto;
+    margin-left: auto!important;
 }
 .myForm{
 	margin-top:46px;
     padding:2px;
-
 }
 .h1-cus {
     text-align:center;
     font-size: 2.0rem;
-    color: #00000069;
-}  
+    color: #00000045;
+}     
 #row-con1{
     margin-top:74px;
 	margin-left:0px;
-	margin-right:0px;
-	box-shadow:#00000052 2px 8px 11px;
+	margin-right:0px;	
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 #row-cont2{
     height: 378px;
     margin-top: 72px;
 	margin-left:0px;
 	margin-right:0px;
-	box-shadow:#00000052 2px 8px 11px;
+    padding-top: 32px;
+    padding-left: 18px;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
 .contactUs #row-cont2 i  {
@@ -295,10 +328,14 @@ box-shadow:#0000002e 4px 4px 4px 4px;
 }
 .h6{
     color: #000;
+    padding: 0 0 0 60px;
     font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
-
-.p{
-    font-size: 19px;
-    margin-left: 41px;
-} 
+.p{ 
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #173b6c;
+}
