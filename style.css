@@ -1,4 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Quando);
+*, *:after, *:before {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+* {margin:0;padding:0;border:0 none;position: relative; outline: none;
+}
+h2{
+font-size:1rem;
+line-height:1.6;
+}
+.navbar-nav .nav-item > a > h2:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: #9CF5A6;
+  visibility: hidden;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: .25s linear;
+}
+.navbar-nav .nav-item:hover > a > h2:before,
+.navbar-nav .nav-item > a > h2:focus:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+.uno h2:before {
+  background: rgba(0,0,0,0);
+  box-shadow: 0 0 10px 2px #ffdb00;  
+}
+.navbar-nav .nav-item .dos > h2:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 7px;
+  border: 1px solid #000;
+  bottom: -2px;
+  left: 0;
+  background: #fff;
+  border-radius: 5px;
+  opacity: 0;
+  transform: scalex(0);
+  transition: .5s;
+}
+.navbar-nav .nav-item .dos.bis > h2:after {
+  opacity: .05;
+  transform: scalex(1);
+}
+.navbar-nav .nav-item:hover > .dos > h2::after {
+  opacity: .15;
+  transform: scalex2(1);
+}
+.navbar-nav .nav-item .dos.bis > h2:before {
+  background: rgba(0,0,0,0);
+  box-shadow: 0 0 10px 2px #FADD40;
+}
+.navbar-nav .nav-item .dos > h2:before {
+  background: rgba(0,0,0,0);
+  box-shadow: 0 0 10px 2px #FF5E33;
+}
+/* Admin Login Page */
 
+/* Index Main Page*/
+html{
+scroll-behavior: smooth;
+}
+/*Social Links */
+.form-inline .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+/*Logo Animation */
+#mylogocolor{
+  width: 300px;
+  height: 200px;
+  font-size:27px;
+  background: #e91e63;
+  padding:3px;
+  animation: mymove 5s;
+  text-decoration-line: overline;
+}
+
+@keyframes mymove {
+  from {background-color:#fff; color: #e91e63;}
+  to {background-color: #e91e63;color: #fff;}
+}
+ 
 .navbar-brand
 {
 color:#fff;
@@ -8,36 +108,42 @@ margin-right: 97px;
 {
 color:#fff; 
 } 
+.navbar-expand-sm{
+background-color:#de1e5f;
+border: 2px solid #e91e63;	
+}
 .nav-link{
-    border: 2px solid #e91e1e61;
+    border: 2px solid #e91e63;
     background-color: #000;
     color: #fff;
     text-decoration: none;
-    background-color: #e91e63f5;
-    padding: 1px;
+    background-color: #de1e5f;
+	padding: 2rem;
+    text-align: center;
+    width: 152px;
+	font-size:17px;
+    height: 92px;
 }
 .nav-link:hover{
-	 border-radius: 10px;
-     border: 2px solid #e91e1e61;
-     padding: 1px;
-     color: #fff;
-     text-decoration: none;
-     background-color:rgb(185, 29, 81);
+	    border-radius: 10px;
+        border: 2px solid #de1e5f;
+        color: #fff;
+        text-decoration: none;
+        background-color: #e91e63;
 }
 .fa-bars{
-    font-size:20px;
-	width:20px;
-}{
     font-size:20px;
 	width:20px;
 }
 @media (min-width: 576px) {
 .navbar-expand-sm .navbar-nav .nav-link {
-   padding: 1.0rem;
+   padding: 2rem;
 }
 }
+
 .navbar{
     padding:0px;
+	
 }
 .container{
     margin:0px;
@@ -47,15 +153,12 @@ color:#fff;
     color: #fff;
     background-color: #e91e63;
     border-color: #fff; 
-    padding: 8px;
+    
 }
-.btn-login:hover {
-    color: #e91e63;
-    background-color: #fff;
-    border-color: #fff; 
-    padding: 8px;
+.btn-login:hover
+{
+color:#fff;
 }
-
 .col-6{
     width:100%;
 }
@@ -65,6 +168,7 @@ color:#fff;
     border-radius: 64px;
     background-color: #e91e63;
     text-align: center;
+	font-size:32px;
 }
 #left-About{ 
     padding: 23px;
@@ -338,4 +442,9 @@ padding:23px;
     margin-bottom: 20px;
     font-size: 16px;
     color: #173b6c;
+}
+
+/* Footer */
+.footer{
+height:auto;
 }
